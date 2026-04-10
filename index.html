@@ -2,7 +2,7 @@
 <html lang="en">
  <meta charset="UTF-8">
      <title>Field & Feast, Harvested with Care, Served with Elegance</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 
    
@@ -45,6 +45,8 @@
     <section id="#gallery">
         <h2>A Gallery of Field & Feast</h2>
             <p>Experience the elegance and artistry behind Field & Feast through our curated collection of images. From lush fields and handcrafted ingredients to beautifully plated farm-to-table creations, each photo tells the story of our commitment to excellence.</p>
-            <img src="images/tomatoes-600w.jpg" srcset="images/tomatoes-300w.jpg,"
+            <img src="images/tomatoes-600w.jpg" sizes="(min-width: 1200px) 25vw, (min-width: 900px) 33vw, (min-width: 600px) 50vw"
+                    srcset="images/tomatoes-200w.jpg 200w, images/tomatoes-300w.jpg 300w,images/tomatoes-600w.jpg 600w"
+                    alt="tomatoes">
     </section>
 </main>
