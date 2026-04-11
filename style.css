@@ -56,7 +56,39 @@ table {
 
 }
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    background-color: var(--linen);
+    font-family: 'Playfair Display', serif;
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+}
 
+#about-us { grid-area: about; }
+#offerings { grid-area: offerings; }
+#gallery { grid-area: gallery; }
+
+main {
+    display: grid;
+    grid-template-areas: "about-us" "offerings" "gallery";
+    grid-template-columns: 1fr;
+    gap:30px;
+    padding: 20px;
+}
+
+.red-juicy-tomatoes, 
+.golden-olive-of-thy-oil, 
+.instagram-fade-filter-elegant-table, 
+.hallmark-scene-type-seasonal-ingredients, 
+.forager-aesthetic-curated-with-care {
+    background-color: var(--linen);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px var(--dark-charcoal);
+    overflow: hidden;
+}
+
+.hidden-heading {
+    visibility: hidden;
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
