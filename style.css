@@ -111,3 +111,8 @@ main {
     }
 }
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+    .gallery-of-photos {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
